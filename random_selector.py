@@ -18,7 +18,7 @@ class RandomSelector:
     def choose_answer_randomly(self) -> str:
         values = self.df.values
         x = self.randomizer.randint(1, values.shape[0]-1)
-        y = self.randomizer.randint(1, values.shape[1]-1)
+        y = self.randomizer.randint(0, values.shape[1]-1)
         return values[x, y]
 
 
