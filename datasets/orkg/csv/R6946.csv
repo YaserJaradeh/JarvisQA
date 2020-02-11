@@ -1,0 +1,5 @@
+﻿"Title","has research problem","On","dataset","evaluation","F-measure","Precision","Recall"
+"Answering over linked data (QALD-5)","Question answering systems evaluation","QALD-5","DBpedia 2014, DBpedia 2014 with abstracts","YodaQA","0.26","0.28","0.25"
+"Answering over linked data (QALD-5)","Question answering systems evaluation","QALD-5","DBpedia 2014, DBpedia 2014 with abstracts","SemGraphQA","0.31","0.31","0.32"
+"Answering over linked data (QALD-5)","Question answering systems evaluation","QALD-5","DBpedia 2014, DBpedia 2014 with abstracts","QAnswer","0.40","0.46","0.35"
+"Answering over linked data (QALD-5)","Question answering systems evaluation","QALD-5","DBpedia 2014, DBpedia 2014 with abstracts","Xser","0.73","0.74","0.72"

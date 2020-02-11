@@ -1,0 +1,6 @@
+﻿"Title","Semantic representation","Acquisition","Prospective/retrospective","Data type","Scope","Discourse","High level claims","Metadata","Natural language statements","Supports research data","Knowledge representation"
+"Open Research Knowledge Graph: Next Generation Infrastructure for Semantic Scholarly Knowledge","ORKG","Authors, Crowdsourcing","Prospective, Retrospective","Free text","Summary","Partially","T","T","Yes","Partially","Metadata, RDF"
+"The anatomy of a nanopublication","Nanopublications","Authors, Automatic extraction","Prospective, Retrospective","Free text","Statement level","Partially","T","T","N","T","RDF"
+"Micropublications: a semantic model for claims, evidence, arguments and annotations in biomedical communications","Micropublications","Authors","Prospective","Free text","Full paper","T","N","T","T","T","OWL, RDF"
+"Research Articles in Simplified HTML: a Web-first format for HTML-based scholarly articles","RASH","Authors","Prospective","Quoted text","Full paper","N","Partially","T","T","N","HTML, RDFa"
+"Decentralised Authoring, Annotations and Notifications for a Read-Write Web with dokieli","Dokie.li","Authors","Prospective","Quoted text","Full paper","T","N","T","T","N","HTML, RDFa"
