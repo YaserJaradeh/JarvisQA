@@ -1,14 +1,21 @@
 import pandas as pd
 import os
 import pysolr
+from random import Random
 
 stopwords = ['ourselves', 'hers', 'between', 'yourself', 'but', 'again', 'there', 'about', 'once', 'during', 'out', 'very', 'having', 'with', 'they', 'own', 'an', 'be', 'some', 'for', 'do', 'its', 'yours', 'such', 'into', 'of', 'most', 'itself', 'other', 'off', 'is', 's', 'am', 'or', 'who', 'as', 'from', 'him', 'each', 'the', 'themselves', 'until', 'below', 'are', 'we', 'these', 'your', 'his', 'through', 'don', 'nor', 'me', 'were', 'her', 'more', 'himself', 'this', 'down', 'should', 'our', 'their', 'while', 'above', 'both', 'up', 'to', 'ours', 'had', 'she', 'all', 'no', 'when', 'at', 'any', 'before', 'them', 'same', 'and', 'been', 'have', 'in', 'will', 'on', 'does', 'yourselves', 'then', 'that', 'because', 'what', 'over', 'why', 'so', 'can', 'did', 'not', 'now', 'under', 'he', 'you', 'herself', 'has', 'just', 'where', 'too', 'only', 'myself', 'which', 'those', 'i', 'after', 'few', 'whom', 't', 'being', 'if', 'theirs', 'my', 'against', 'a', 'by', 'doing', 'it', 'how', 'further', 'was', 'here', 'than']
+
+
+class BaseSelector:
+
+    def answer_question(self, question, top_k=3) -> list:
+        pass
 
 
 # you have to run this
 # docker run -p 8983:8983 -t solr
 # docker run -d -p 8983:8983 --name my_solr solr solr-precreate gettingstarted
-class LuceneSelector:
+class LuceneSelector(BaseSelector):
 
     def __init__(self, path: str, solr_instance: str = 'http://localhost:8983/solr/gettingstarted/'):
         self.df = self.__read_csv(path)
@@ -47,9 +54,28 @@ class LuceneSelector:
     def clean_index(self):
         self.solr.delete(q='*:*')
 
+    def answer_question(self, question, top_k=3) -> list:
+        return self.query_index(question, top_k)
 
-if __name__ == '__main__':
-    x = LuceneSelector('./data/test.csv')
-    #x.index_table()
-    print(x.query_index("what is the data type of nanopublications?"))
-    #x.clean_index()
+
+class RandomSelector:
+
+    def __init__(self, path: str, seed: int = 10):
+        self.df = self.__read_csv(path)
+        self.randomizer = Random(seed)
+
+    @staticmethod
+    def __read_csv(path: str) -> pd.DataFrame:
+        if not os.path.exists(path):
+            raise ValueError("Path doesn't exists")
+        return pd.read_csv(path)
+
+    def choose_answer_randomly(self) -> str:
+        values = self.df.values
+        x = self.randomizer.randint(1, values.shape[0]-1)
+        y = self.randomizer.randint(0, values.shape[1]-1)
+        return values[x, y]
+
+    def answer_question(self, question, top_k=3) -> list:
+        # ignore question here
+        return [self.choose_answer_randomly() for _ in range(top_k)]
