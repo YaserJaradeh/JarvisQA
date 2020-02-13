@@ -1,0 +1,81 @@
+Question,Table,Type,Answer
+"What is the data type supported by the paper ""Open Research Knowledge Graph""?",R8364,normal,Free text
+"What is the scope of Decentralised Authoring, Annotations and Notifications for a Read-Write Web with dokieli?",R8364,normal,Full paper
+What is the most common Knowledge representation method?,R8364,aggregation,RDF
+Who is responsable for accquistion in the RASH system?,R8364,related,Authors
+Which ontology has the most classes?,R8342,aggregation,EXPO
+What is the average number of data properties between the ontologies?,R8342,aggregation,22
+What are example classes of the Fabio ontology?,R8342,normal,"Item, Manifestation, StorageMedium, Work"
+What is the base URL of The Document Components Ontology?,R8342,similar,http://purl.org/spar/doco
+What is the full name of EXPO?,R8342,empty,
+"What are the problem addressed by paper ""A semi-supervised approach for author disambiguation in KDD CUP 2013""?",R6187,similar,"Homonyms problem, Synonyms problem"
+Which papers use datastet DBLP?,R6187,list,"A Real-time Heuristic-based Unsupervised Method for Name Disambiguation in Digital Libraries, Disambiguating authors in citations on the web and authorship correlations, Self-training author name disambiguation for information scarce scenarios, Robust hybrid name disambiguation framework for large databases"
+What is the least common metric used?,R6187,aggregation,"K metric, Pairwise F1"
+What are the limitations of Author disambiguation using multi-aspect similarity indicators?,R6187,normal,Requires too many parameters
+"Does paper ""Disambiguating authors in citations on the web and authorship correlations"" employes Cosine similarity?",R6187,ask,Yes
+"What type of evidence is used by publication ""A Real-time Heuristic-based Unsupervised Method for Name Disambiguation in Digital Libraries""?",R6187,normal,"Affiliation, Authors, Home page, Title words, Venues"
+What kind of graph does ADANA uses?,R6751,partial,Pairwise Factor Graph
+"what are the similarity methods used by ""On Graph-Based Name Disambiguation""?",R6751,normal,User defined
+"what is the evidence and limitations of paper ""Evaluating the Use of Social Networks in Author Name Disambiguation in Digital Libraries""?",R6751,multiple,"Authors, Title words, If no relationship or low syntactic similarity then fails"
+What are the datasets used with user defined similarity?,R6751,related,Small standard DS
+What does ADANA: Active Name Disambiguation system deals with?,R6751,normal,Homonyms problem
+"Which methods are used by publication ""Author Name Disambiguation by Using Deep Neural Network""?",R6949,normal,Deep neural network
+What is the most used performance metric?,R6949,aggregation,Accuracy
+What is the Unceretainty of ELM-based name disambiguation in bibliography?,R6949,normal,F
+What is the limitation of Vietnamese Author Name Disambiguation?,R6949,partial,Cannot handle outliers
+Which similairty method is least used?,R6949,aggregation,"Jaro, Jaro–Winkler, Levenshtein distance, Monge-Elkan, Smith–Waterman, Self-defined, Cosine, Eigen Decomposition, TF-IDF"
+"What does this paper ""A method for eliminating articles by homonymous authors from the large number of articles retrieved by author search"" deals with?",R6949,normal,Homonyms problem
+What kind of evidance used by boosted-trees method for name disambiguation?,R6949,normal,"Abstract, Author name, Keywords, Subject category, Title words, Venues"
+Which kind of clustering technique is used by Bibliometric fingerprints?,R6950,partial,Hierarchical agglomerative
+"What methods are used on ""A fast method based on multiple clustering for name disambiguation in bibliographic citations""?",R6950,normal,Hierarchical clusters of relations between authors and papers
+What clustering method is used for A Unified Probabilistic Framework for Name Disambiguation in Digital Library paper?,R6950,empty,
+What dataset is used by Exploiting citation networks for large-scale author name disambiguation?,R6950,normal,Web of Science
+"Can ""A Unified Probabilistic Framework for Name Disambiguation in Digital Library"" deal with Synonyms?",R6950,ask,No
+Which evaluation metrics are used to evaluate Unsupervised author disambiguation using Dempster–Shafer theory?,R6950,similar,"K metric, Pairwise F1"
+What visualizations are supported by LDVM?,R6755,related,"Bubble chart, Map, Tree, Treemap"
+What is the most common data type preocessed?,R6755,aggregation,"Numeric, Temporal, Special"
+Does ViCoMap supports aggregation?,R6755,ask,No
+Does VizBoard performs sampling?,R6755,ask,Yes
+"What is the implementation of publication ""Using Semantics for Interactive Visual Analysis of Linked Open Data""?",R6755,normal,Vis Wizard
+what application type is targeted by Rhizomer?,R6755,related,Web
+What is user recommendation of Using Semantics for Interactive Visual Analysis of Linked Open Data?,R6755,normal,T
+What systsms has a domain of ontology?,R6756,list,"VOWL 2, OntoTrix, GLOW, KC-Viz, NodeTrix, GrOWL"
+Does ZoomRDF uses filters?,R6756,ask,No
+What is the research problem of NodeTrix?,R6756,partial,Graph-based visualization systems
+What is the most common application type?,R6756,aggregation,Desktop
+"What is the implementation of ""Visualizing large-scale RDF data using Subsets, Summaries, and Sampling in Oracle"" called?",R6756,normal,Cytospace
+"What is the application domain of paper ""User-Oriented Visualization of Ontologies""?",R6756,similar,Ontology
+"What is the application type of publication ""A tool for visualization and editing of OWL ontologies""?",R6756,normal,Desktop
+"What is the research problem addressed by paper ""LIMSI participation at QALD-5@CLEF""?",R6757,empty,
+What is the implementaion of Natural language queries over heterogeneous linked data graphs called?,R6757,normal,DEANNA
+what is the most common used disabmiguation method?,R6757,aggregation,Local disambiguation
+What kind of question analysis task does Xser perform?,R6757,related,"POS learned, Phrase dependencies and DAG"
+What are the pharse mapping techniques employed by Intui3 system?,R6757,partial,"Knowledge base labels, Redirects, Wikipedia specific approaches, WordNet/Wiktionary"
+"What are the question analysis tasks of ""CASIA@ V2: a MLN-based question answering system over linked data""?",R6757,normal,"Dependency parser, NE n-gram strategy, POS learned"
+"Which data set is evaluated in the publication ""6th Open Challenge on Question Answering over Linked Data (QALD-6)""?",R6898,normal,"DBpedia 2015, DBpedia 2015 with abstracts, LinkedSpending"
+"What research problem is addressed in paper ""6th Open Challenge on Question Answering over Linked Data (QALD-6)""?",R6898,normal,Question answering systems evaluation
+What is the most used language?,R6898,aggregation,English
+What is the average f1-score of the systems?,R6898,aggregation,0.61
+What is the lowest recall?,R6898,aggregation,0.25
+What is the size of training questions?,R6898,normal,"350, 50, 100"
+List all evaluations performed?,R6898,list,"SemGraphQA, UTQA"
+What is the precision and recall of SemGraphQA?,R6898,multiple,"0.7, 0.25"
+"What is the question set size of ""6th Open Challenge on Question Answering over Linked Data (QALD-6)""?",R6898,similar,100
+"What is the recall of publication ""6th Open Challenge on Question Answering over Linked Data (QALD-6)""?",R6898,normal,"0.25, 0.61, 0.62, 0.69"
+What are the datasets used by UTQA?,R6898,normal,"DBpedia 2015, DBpedia 2015 with abstracts, LinkedSpending"
+What are the datasets used by YodaQA?,R6946,related,"DBpedia 2014, DBpedia 2014 with abstracts"
+What is the max F-measure achived?,R6946,aggregation,0.73
+Which system has the worst recall?,R6946,aggregation,YodaQA
+What is the precision of Xser?,R6946,related,0.74
+What is the approach type of Automatic Keyword Extraction for Text Summarization in e-Newspapers?,R6947,normal,Statistical
+"What is the implemenation name of ""Exploiting Category-Specific Information for Multi-Document Summarization""?",R6947,normal,SWING
+"What are the metrics used by paper ""Using NMF-based text summarization to improve supervised and unsupervised classification""?",R6947,normal,"ROUGE 1, ROUGE 2, ROUGE L, ROUGE SU4, ROUGE W"
+What is the most common approach type used?,R6947,aggregation,Statistical
+What kind of summary used by A Statistical Approach for Automatic Text Summarization by Extraction?,R6947,empty,
+What are document types supported by Automatic Abstracting Research at Chemical Abstracts Service?,R6948,normal,Single document
+What is the approch type of Summons?,R6948,related,Algebraic
+What is the implementation of Generating Indicative-Informative Summaries with SumUM?,R6948,normal,SumUM
+"What are the evaluation metrics of the paper ""Trainable, scalable summarization using robust NLP and machine learning""?",R6948,normal,"F-measure, Precision, Recall, Relative utility"
+What is the summary usage of Automated text summarization and the SUMMARIST system?,R6948,normal,Generic
+what approach type is taken by NeATS system?,R6948,related,Graph based
+What is the most common approch type?,R6948,aggregation,Algebraic
