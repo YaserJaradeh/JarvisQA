@@ -49,6 +49,7 @@ class LuceneSelector(BaseSelector):
 
     def query_index(self, query, top_k=3):
         clean_query = ' '.join([w for w in query.split() if w.lower() not in stopwords])
+        clean_query = clean_query.replace(':', '')
         return [result['value'][0] for result in list(self.solr.search(f'segment:{clean_query}'))[:top_k]]
 
     def clean_index(self):
@@ -60,8 +61,8 @@ class LuceneSelector(BaseSelector):
 
 class RandomSelector:
 
-    def __init__(self, path: str, seed: int = 10):
-        self.df = self.__read_csv(path)
+    def __init__(self, seed: int = 10):
+        self.df = None
         self.randomizer = Random(seed)
 
     @staticmethod
@@ -70,10 +71,13 @@ class RandomSelector:
             raise ValueError("Path doesn't exists")
         return pd.read_csv(path)
 
+    def update_table(self, path: str):
+        self.df = self.__read_csv(path)
+
     def choose_answer_randomly(self) -> str:
         values = self.df.values
-        x = self.randomizer.randint(1, values.shape[0]-1)
-        y = self.randomizer.randint(0, values.shape[1]-1)
+        x = self.randomizer.randint(0, values.shape[0]-1)
+        y = self.randomizer.randint(1, values.shape[1]-1)
         return values[x, y]
 
     def answer_question(self, question, top_k=3) -> list:
