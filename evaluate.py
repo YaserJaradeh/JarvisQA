@@ -2,8 +2,10 @@ import pandas as pd
 from baselines import BaseSelector, RandomSelector, LuceneSelector
 from sklearn.metrics import precision_recall_fscore_support
 from time import time
+from memory_profiler import profile
 
 
+@profile
 def evaluate_random_baseline(dataset_path, top_k=3, qtype=None):
     df = pd.read_csv(dataset_path)
     y_true = []
@@ -30,6 +32,7 @@ def evaluate_random_baseline(dataset_path, top_k=3, qtype=None):
     return p, r, f1, pd.np.np.mean(times) * 1000
 
 
+@profile
 def evaluate_lucene_baseline(dataset_path, top_k=3, qtype=None):
     df = pd.read_csv(dataset_path)
     y_true = []
