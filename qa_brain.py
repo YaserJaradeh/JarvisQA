@@ -21,7 +21,7 @@ class QABrain:
                 results.append(dic)
         return results
 
-    def answer(self, question, context, top_k=3, threshold=0.001):
+    def answer2(self, question, context, top_k=3, threshold=0.001):
         answers = self.nlp({
             'question': question,
             'context': context
@@ -35,3 +35,14 @@ class QABrain:
         for answer in clean_answers:
             answer['answer'] = answer['answer'].strip('().{},\'"')
         return [a['answer'] for a in sorted(clean_answers, key=lambda x: x['score'], reverse=True)]
+
+    def answer(self, question, context, top_k=3):
+        answers = self.nlp({
+            'question': question,
+            'context': context
+        }, topk=top_k, max_seq_len=512)
+        if not isinstance(answers, list):
+            answers = [answers]
+        for answer in answers:
+            answer['answer'] = answer['answer'].strip('().{},\'"')
+        return [a['answer'] for a in sorted(answers, key=lambda x: x['score'], reverse=True)]
