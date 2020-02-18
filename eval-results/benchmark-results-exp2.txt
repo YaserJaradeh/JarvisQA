@@ -1,0 +1,321 @@
+On model: bert-large-uncased-whole-word-masking-finetuned-squad
+Jarvis normal:
+k=1	Precision: 0.3488,	Recall: 0.3372,	F1-Score: 0.3411
+Jarvis normal:
+k=3	Precision: 0.4872,	Recall: 0.4744,	F1-Score: 0.4786
+Jarvis normal:
+k=5	Precision: 0.5263,	Recall: 0.5132,	F1-Score: 0.5175
+Jarvis normal:
+k=10	Precision: 0.6857,	Recall: 0.6714,	F1-Score: 0.6762
+******************************
+Jarvis aggregation:
+k=1	Precision: 0.3913,	Recall: 0.3913,	F1-Score: 0.3913
+Jarvis aggregation:
+k=3	Precision: 0.3913,	Recall: 0.3913,	F1-Score: 0.3913
+Jarvis aggregation:
+k=5	Precision: 0.4545,	Recall: 0.4545,	F1-Score: 0.4545
+Jarvis aggregation:
+k=10	Precision: 0.4545,	Recall: 0.4545,	F1-Score: 0.4545
+******************************
+Jarvis related:
+k=1	Precision: 0.5000,	Recall: 0.5000,	F1-Score: 0.5000
+Jarvis related:
+k=3	Precision: 0.6364,	Recall: 0.6364,	F1-Score: 0.6364
+Jarvis related:
+k=5	Precision: 0.6364,	Recall: 0.6364,	F1-Score: 0.6364
+Jarvis related:
+k=10	Precision: 0.8000,	Recall: 0.8000,	F1-Score: 0.8000
+******************************
+Jarvis similar:
+k=1	Precision: 0.1111,	Recall: 0.1111,	F1-Score: 0.1111
+Jarvis similar:
+k=3	Precision: 0.2500,	Recall: 0.2500,	F1-Score: 0.2500
+Jarvis similar:
+k=5	Precision: 0.6667,	Recall: 0.6667,	F1-Score: 0.6667
+Jarvis similar:
+k=10	Precision: 0.6667,	Recall: 0.6667,	F1-Score: 0.6667
+******************************
+Jarvis:
+k=1	Precision: 0.3113,	Recall: 0.3066,	F1-Score: 0.3050
+Jarvis:
+k=3	Precision: 0.3861,	Recall: 0.3812,	F1-Score: 0.3795
+Jarvis:
+k=5	Precision: 0.4433,	Recall: 0.4330,	F1-Score: 0.4330
+Jarvis:
+k=10	Precision: 0.5053,	Recall: 0.4947,	F1-Score: 0.4965
+========================================
+On model: bert-large-cased-whole-word-masking-finetuned-squad
+Jarvis normal:
+k=1	Precision: 0.3111,	Recall: 0.3111,	F1-Score: 0.3111
+Jarvis normal:
+k=3	Precision: 0.4390,	Recall: 0.4268,	F1-Score: 0.4309
+Jarvis normal:
+k=5	Precision: 0.4500,	Recall: 0.4500,	F1-Score: 0.4500
+Jarvis normal:
+k=10	Precision: 0.4500,	Recall: 0.4500,	F1-Score: 0.4500
+******************************
+Jarvis aggregation:
+k=1	Precision: 0.2708,	Recall: 0.2917,	F1-Score: 0.2778
+Jarvis aggregation:
+k=3	Precision: 0.3913,	Recall: 0.3913,	F1-Score: 0.3913
+Jarvis aggregation:
+k=5	Precision: 0.3913,	Recall: 0.3913,	F1-Score: 0.3913
+Jarvis aggregation:
+k=10	Precision: 0.4545,	Recall: 0.4545,	F1-Score: 0.4545
+******************************
+Jarvis related:
+k=1	Precision: 0.6500,	Recall: 0.7000,	F1-Score: 0.6667
+Jarvis related:
+k=3	Precision: 1.0000,	Recall: 1.0000,	F1-Score: 1.0000
+Jarvis related:
+k=5	Precision: 1.0000,	Recall: 1.0000,	F1-Score: 1.0000
+Jarvis related:
+k=10	Precision: 1.0000,	Recall: 1.0000,	F1-Score: 1.0000
+******************************
+Jarvis similar:
+k=1	Precision: 0.1111,	Recall: 0.1111,	F1-Score: 0.1111
+Jarvis similar:
+k=3	Precision: 0.1111,	Recall: 0.1111,	F1-Score: 0.1111
+Jarvis similar:
+k=5	Precision: 0.2500,	Recall: 0.2500,	F1-Score: 0.2500
+Jarvis similar:
+k=10	Precision: 0.4286,	Recall: 0.4286,	F1-Score: 0.4286
+******************************
+Jarvis:
+k=1	Precision: 0.2692,	Recall: 0.2885,	F1-Score: 0.2724
+Jarvis:
+k=3	Precision: 0.3535,	Recall: 0.3687,	F1-Score: 0.3569
+Jarvis:
+k=5	Precision: 0.3673,	Recall: 0.3878,	F1-Score: 0.3741
+Jarvis:
+k=10	Precision: 0.3918,	Recall: 0.4124,	F1-Score: 0.3986
+========================================
+On model: deepset/bert-base-cased-squad2
+Jarvis normal:
+k=1	Precision: 0.0918,	Recall: 0.1020,	F1-Score: 0.0952
+Jarvis normal:
+k=3	Precision: 0.2333,	Recall: 0.2444,	F1-Score: 0.2370
+Jarvis normal:
+k=5	Precision: 0.2614,	Recall: 0.2727,	F1-Score: 0.2652
+Jarvis normal:
+k=10	Precision: 0.3140,	Recall: 0.3256,	F1-Score: 0.3178
+******************************
+Jarvis aggregation:
+k=1	Precision: 0.0690,	Recall: 0.0690,	F1-Score: 0.0690
+Jarvis aggregation:
+k=3	Precision: 0.1923,	Recall: 0.1923,	F1-Score: 0.1923
+Jarvis aggregation:
+k=5	Precision: 0.1923,	Recall: 0.1923,	F1-Score: 0.1923
+Jarvis aggregation:
+k=10	Precision: 0.3333,	Recall: 0.3333,	F1-Score: 0.3333
+******************************
+Jarvis related:
+k=1	Precision: 0.1250,	Recall: 0.1250,	F1-Score: 0.1250
+Jarvis related:
+k=3	Precision: 0.2857,	Recall: 0.2857,	F1-Score: 0.2857
+Jarvis related:
+k=5	Precision: 0.2857,	Recall: 0.2857,	F1-Score: 0.2857
+Jarvis related:
+k=10	Precision: 0.3846,	Recall: 0.3846,	F1-Score: 0.3846
+******************************
+Jarvis similar:
+k=1	Precision: 0.1111,	Recall: 0.1111,	F1-Score: 0.1111
+Jarvis similar:
+k=3	Precision: 0.1111,	Recall: 0.1111,	F1-Score: 0.1111
+Jarvis similar:
+k=5	Precision: 0.1111,	Recall: 0.1111,	F1-Score: 0.1111
+Jarvis similar:
+k=10	Precision: 0.2500,	Recall: 0.2500,	F1-Score: 0.2500
+******************************
+Jarvis:
+k=1	Precision: 0.0868,	Recall: 0.0966,	F1-Score: 0.0896
+Jarvis:
+k=3	Precision: 0.1652,	Recall: 0.1858,	F1-Score: 0.1723
+Jarvis:
+k=5	Precision: 0.1756,	Recall: 0.1964,	F1-Score: 0.1827
+Jarvis:
+k=10	Precision: 0.2385,	Recall: 0.2569,	F1-Score: 0.2446
+========================================
+On model: deepset/bert-large-uncased-whole-word-masking-squad2
+Jarvis normal:
+k=1	Precision: 0.4146,	Recall: 0.4146,	F1-Score: 0.4146
+Jarvis normal:
+k=3	Precision: 0.4750,	Recall: 0.4750,	F1-Score: 0.4750
+Jarvis normal:
+k=5	Precision: 0.5526,	Recall: 0.5395,	F1-Score: 0.5439
+Jarvis normal:
+k=10	Precision: 0.6111,	Recall: 0.6111,	F1-Score: 0.6111
+******************************
+Jarvis aggregation:
+k=1	Precision: 0.4545,	Recall: 0.4545,	F1-Score: 0.4545
+Jarvis aggregation:
+k=3	Precision: 0.4545,	Recall: 0.4545,	F1-Score: 0.4545
+Jarvis aggregation:
+k=5	Precision: 0.4545,	Recall: 0.4545,	F1-Score: 0.4545
+Jarvis aggregation:
+k=10	Precision: 0.4545,	Recall: 0.4545,	F1-Score: 0.4545
+******************************
+Jarvis related:
+k=1	Precision: 0.5000,	Recall: 0.5000,	F1-Score: 0.5000
+Jarvis related:
+k=3	Precision: 0.5000,	Recall: 0.5000,	F1-Score: 0.5000
+Jarvis related:
+k=5	Precision: 1.0000,	Recall: 1.0000,	F1-Score: 1.0000
+Jarvis related:
+k=10	Precision: 1.0000,	Recall: 1.0000,	F1-Score: 1.0000
+******************************
+Jarvis similar:
+k=1	Precision: 0.1111,	Recall: 0.1111,	F1-Score: 0.1111
+Jarvis similar:
+k=3	Precision: 0.2500,	Recall: 0.2500,	F1-Score: 0.2500
+Jarvis similar:
+k=5	Precision: 0.6667,	Recall: 0.6667,	F1-Score: 0.6667
+Jarvis similar:
+k=10	Precision: 0.6667,	Recall: 0.6667,	F1-Score: 0.6667
+******************************
+Jarvis:
+k=1	Precision: 0.3464,	Recall: 0.3529,	F1-Score: 0.3448
+Jarvis:
+k=3	Precision: 0.3850,	Recall: 0.3850,	F1-Score: 0.3800
+Jarvis:
+k=5	Precision: 0.4632,	Recall: 0.4632,	F1-Score: 0.4596
+Jarvis:
+k=10	Precision: 0.4787,	Recall: 0.4840,	F1-Score: 0.4787
+========================================
+On model: distilbert-base-uncased-distilled-squad
+Jarvis normal:
+k=1	Precision: 0.1458,	Recall: 0.1667,	F1-Score: 0.1528
+Jarvis normal:
+k=3	Precision: 0.2667,	Recall: 0.2889,	F1-Score: 0.2741
+Jarvis normal:
+k=5	Precision: 0.3571,	Recall: 0.3571,	F1-Score: 0.3492
+Jarvis normal:
+k=10	Precision: 0.4615,	Recall: 0.4615,	F1-Score: 0.4530
+******************************
+Jarvis aggregation:
+k=1	Precision: 0.2292,	Recall: 0.2500,	F1-Score: 0.2361
+Jarvis aggregation:
+k=3	Precision: 0.3864,	Recall: 0.4091,	F1-Score: 0.3939
+Jarvis aggregation:
+k=5	Precision: 0.3864,	Recall: 0.4091,	F1-Score: 0.3939
+Jarvis aggregation:
+k=10	Precision: 0.3864,	Recall: 0.4091,	F1-Score: 0.3939
+******************************
+Jarvis related:
+k=1	Precision: 0.3077,	Recall: 0.3077,	F1-Score: 0.3077
+Jarvis related:
+k=3	Precision: 0.5000,	Recall: 0.5000,	F1-Score: 0.5000
+Jarvis related:
+k=5	Precision: 0.6364,	Recall: 0.6364,	F1-Score: 0.6364
+Jarvis related:
+k=10	Precision: 0.6364,	Recall: 0.6364,	F1-Score: 0.6364
+******************************
+Jarvis similar:
+k=1	Precision: 0.0000,	Recall: 0.0000,	F1-Score: 0.0000
+Jarvis similar:
+k=3	Precision: 0.0000,	Recall: 0.0000,	F1-Score: 0.0000
+Jarvis similar:
+k=5	Precision: 0.0000,	Recall: 0.0000,	F1-Score: 0.0000
+Jarvis similar:
+k=10	Precision: 0.0000,	Recall: 0.0000,	F1-Score: 0.0000
+******************************
+Jarvis:
+k=1	Precision: 0.1578,	Recall: 0.1770,	F1-Score: 0.1628
+Jarvis:
+k=3	Precision: 0.2339,	Recall: 0.2569,	F1-Score: 0.2416
+Jarvis:
+k=5	Precision: 0.2810,	Recall: 0.2952,	F1-Score: 0.2825
+Jarvis:
+k=10	Precision: 0.3317,	Recall: 0.3465,	F1-Score: 0.3333
+========================================
+On model: ktrapeznikov/albert-xlarge-v2-squad-v2
+Jarvis normal:
+k=1	Precision: 0.3409,	Recall: 0.3409,	F1-Score: 0.3409
+Jarvis normal:
+k=3	Precision: 0.4750,	Recall: 0.4750,	F1-Score: 0.4750
+Jarvis normal:
+k=5	Precision: 0.5128,	Recall: 0.5128,	F1-Score: 0.5128
+Jarvis normal:
+k=10	Precision: 0.5128,	Recall: 0.5128,	F1-Score: 0.5128
+******************************
+Jarvis aggregation:
+k=1	Precision: 0.4545,	Recall: 0.4545,	F1-Score: 0.4545
+Jarvis aggregation:
+k=3	Precision: 0.4545,	Recall: 0.4545,	F1-Score: 0.4545
+Jarvis aggregation:
+k=5	Precision: 0.5238,	Recall: 0.5238,	F1-Score: 0.5238
+Jarvis aggregation:
+k=10	Precision: 0.5238,	Recall: 0.5238,	F1-Score: 0.5238
+******************************
+Jarvis related:
+k=1	Precision: 1.0000,	Recall: 1.0000,	F1-Score: 1.0000
+Jarvis related:
+k=3	Precision: 1.0000,	Recall: 1.0000,	F1-Score: 1.0000
+Jarvis related:
+k=5	Precision: 1.0000,	Recall: 1.0000,	F1-Score: 1.0000
+Jarvis related:
+k=10	Precision: 1.0000,	Recall: 1.0000,	F1-Score: 1.0000
+******************************
+Jarvis similar:
+k=1	Precision: 0.4286,	Recall: 0.4286,	F1-Score: 0.4286
+Jarvis similar:
+k=3	Precision: 0.4286,	Recall: 0.4286,	F1-Score: 0.4286
+Jarvis similar:
+k=5	Precision: 0.6667,	Recall: 0.6667,	F1-Score: 0.6667
+Jarvis similar:
+k=10	Precision: 0.6667,	Recall: 0.6667,	F1-Score: 0.6667
+******************************
+Jarvis:
+k=1	Precision: 0.3617,	Recall: 0.3750,	F1-Score: 0.3647
+Jarvis:
+k=3	Precision: 0.4184,	Recall: 0.4323,	F1-Score: 0.4215
+Jarvis:
+k=5	Precision: 0.4592,	Recall: 0.4734,	F1-Score: 0.4624
+Jarvis:
+k=10	Precision: 0.4592,	Recall: 0.4734,	F1-Score: 0.4624
+========================================
+On model: replydotai/albert-xxlarge-v1-finetuned-squad2
+Jarvis normal:
+k=1	Precision: 0.2766,	Recall: 0.2660,	F1-Score: 0.2695
+Jarvis normal:
+k=3	Precision: 0.3333,	Recall: 0.3222,	F1-Score: 0.3259
+Jarvis normal:
+k=5	Precision: 0.3333,	Recall: 0.3222,	F1-Score: 0.3259
+Jarvis normal:
+k=10	Precision: 0.3636,	Recall: 0.3523,	F1-Score: 0.3561
+******************************
+Jarvis aggregation:
+k=1	Precision: 0.4524,	Recall: 0.4762,	F1-Score: 0.4603
+Jarvis aggregation:0.2
+k=3	Precision: 0.4524,	Recall: 0.4762,	F1-Score: 0.4603
+Jarvis aggregation:
+k=5	Precision: 0.4524,	Recall: 0.4762,	F1-Score: 0.4603
+Jarvis aggregation:
+k=10	Precision: 0.4524,	Recall: 0.4762,	F1-Score: 0.4603
+******************************
+Jarvis related:
+k=1	Precision: 0.5000,	Recall: 0.5000,	F1-Score: 0.5000
+Jarvis related:
+k=3	Precision: 0.5000,	Recall: 0.5000,	F1-Score: 0.5000
+Jarvis related:
+k=5	Precision: 0.8000,	Recall: 0.8000,	F1-Score: 0.8000
+Jarvis related:
+k=10	Precision: 1.0000,	Recall: 1.0000,	F1-Score: 1.0000
+******************************
+Jarvis similar:
+k=1	Precision: 0.4286,	Recall: 0.4286,	F1-Score: 0.4286
+Jarvis similar:
+k=3	Precision: 0.4286,	Recall: 0.4286,	F1-Score: 0.4286
+Jarvis similar:
+k=5	Precision: 0.4286,	Recall: 0.4286,	F1-Score: 0.4286
+Jarvis similar:
+k=10	Precision: 0.4286,	Recall: 0.4286,	F1-Score: 0.4286
+******************************
+Jarvis:
+k=1	Precision: 0.3188,	Recall: 0.3204,	F1-Score: 0.3139
+Jarvis:
+k=3	Precision: 0.3415,	Recall: 0.3431,	F1-Score: 0.3366
+Jarvis:
+k=5	Precision: 0.3583,	Recall: 0.3650,	F1-Score: 0.3567
+Jarvis:
+k=10	Precision: 0.3861,	Recall: 0.3929,	F1-Score: 0.3844

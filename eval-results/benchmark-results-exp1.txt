@@ -1,0 +1,60 @@
+Random:
+Precision: 0.0240,	Recall: 0.0367,	F1-Score: 0.0263
+========================================
+Lucene:
+k=1	Precision: 0.0918,	Recall: 0.0962,	F1-Score: 0.0902
+Lucene:
+k=3	Precision: 0.1944,	Recall: 0.1853,	F1-Score: 0.1848
+Lucene:
+k=5	Precision: 0.2086,	Recall: 0.1994,	F1-Score: 0.1989
+Lucene:
+k=10	Precision: 0.2534,	Recall: 0.2438,	F1-Score: 0.2433
+========================================
+Jarvis normal:
+k=1	Precision: 0.4146,	Recall: 0.4146,	F1-Score: 0.4146
+Jarvis normal:
+k=3	Precision: 0.4750,	Recall: 0.4750,	F1-Score: 0.4750
+Jarvis normal:
+k=5	Precision: 0.5526,	Recall: 0.5395,	F1-Score: 0.5439
+Jarvis normal:
+k=10	Precision: 0.6111,	Recall: 0.6111,	F1-Score: 0.6111
+******************************
+Jarvis aggregation:
+k=1	Precision: 0.4545,	Recall: 0.4545,	F1-Score: 0.4545
+Jarvis aggregation:
+k=3	Precision: 0.4545,	Recall: 0.4545,	F1-Score: 0.4545
+Jarvis aggregation:
+k=5	Precision: 0.4545,	Recall: 0.4545,	F1-Score: 0.4545
+Jarvis aggregation:
+k=10	Precision: 0.4545,	Recall: 0.4545,	F1-Score: 0.4545
+******************************
+Jarvis related:
+k=1	Precision: 0.5000,	Recall: 0.5000,	F1-Score: 0.5000
+Jarvis related:
+k=3	Precision: 0.5000,	Recall: 0.5000,	F1-Score: 0.5000
+Jarvis related:
+k=5	Precision: 1.0000,	Recall: 1.0000,	F1-Score: 1.0000
+Jarvis related:
+k=10	Precision: 1.0000,	Recall: 1.0000,	F1-Score: 1.0000
+******************************
+Jarvis similar:
+k=1	Precision: 0.1111,	Recall: 0.1111,	F1-Score: 0.1111
+Jarvis similar:
+k=3	Precision: 0.2500,	Recall: 0.2500,	F1-Score: 0.2500
+Jarvis similar:
+k=5	Precision: 0.6667,	Recall: 0.6667,	F1-Score: 0.6667
+Jarvis similar:
+k=10	Precision: 0.6667,	Recall: 0.6667,	F1-Score: 0.6667
+******************************
+Jarvis:
+k=1	Precision: 0.3464,	Recall: 0.3529,	F1-Score: 0.3448
+========================================
+Jarvis:
+k=3	Precision: 0.3850,	Recall: 0.3850,	F1-Score: 0.3800
+========================================
+Jarvis:
+k=5	Precision: 0.4632,	Recall: 0.4632,	F1-Score: 0.4596
+========================================
+Jarvis:
+k=10	Precision: 0.4787,	Recall: 0.4840,	F1-Score: 0.4787
+========================================
