@@ -91,14 +91,14 @@ def evaluate_jarvis(dataset_path, top_k=3, qtype=None, model_name='deepset/bert-
 
 if __name__ == '__main__':
     #print(f'{"="*10} Random {"="*10}')
-    #print(evaluate_random_baseline('./datasets/orkg/ORKG-QA-DS.csv', top_k=1))
+    print(evaluate_random_baseline('./datasets/orkg/ORKG-QA-DS.csv', top_k=1))
     #print(evaluate_random_baseline('./datasets/orkg/ORKG-QA-DS.csv', top_k=2))
     #print(evaluate_random_baseline('./datasets/orkg/ORKG-QA-DS.csv', top_k=3))
     #print(f'{"=" * 10} Lucene {"=" * 10}')
     #print(evaluate_lucene_baseline('./datasets/orkg/ORKG-QA-DS.csv', top_k=1))
     #print(evaluate_lucene_baseline('./datasets/orkg/ORKG-QA-DS.csv', top_k=2))
     #print(evaluate_lucene_baseline('./datasets/orkg/ORKG-QA-DS.csv', top_k=3))
-    print(f'{"=" * 10} Jarvis base {"=" * 10}')
+    #print(f'{"=" * 10} Jarvis base {"=" * 10}')
     #print(evaluate_jarvis('./datasets/orkg/ORKG-QA-DS.csv', top_k=1))
     #print(evaluate_jarvis('./datasets/orkg/ORKG-QA-DS.csv', top_k=2))
-    print(evaluate_jarvis('./datasets/orkg/ORKG-QA-DS.csv', top_k=5))
+    #print(evaluate_jarvis('./datasets/orkg/ORKG-QA-DS.csv', top_k=5))
