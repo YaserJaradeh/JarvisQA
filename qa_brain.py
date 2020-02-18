@@ -21,7 +21,7 @@ class QABrain:
                 results.append(dic)
         return results
 
-    def answer2(self, question, context, top_k=3, threshold=0.001):
+    def answer_clean(self, question, context, top_k=3, threshold=0.001):
         answers = self.nlp({
             'question': question,
             'context': context
