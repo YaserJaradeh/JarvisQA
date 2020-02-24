@@ -12,7 +12,7 @@ def evaluate_random_baseline(dataset_path, top_k=3, qtype=None):
     y_true = []
     y_pred = []
     times = []
-    baseline = RandomSelector(seed=12)
+    baseline = RandomSelector(seed=4)
     for index, row in df.iterrows():
         question = row['Question']
         real_answer = row['Answer']
@@ -22,7 +22,7 @@ def evaluate_random_baseline(dataset_path, top_k=3, qtype=None):
         y_true.append(real_answer if pd.notna(real_answer) else '')
         baseline.update_table(f'./datasets/orkg/csv/{row["Table"]}.csv')
         start = time()
-        answers = baseline.answer_question(question, 4)[:top_k]
+        answers = baseline.answer_question(question, 10)[:top_k]
         end = time()
         times.append(end-start)
         if real_answer in answers:
@@ -92,6 +92,9 @@ def evaluate_jarvis(dataset_path, top_k=3, qtype=None, model_name='deepset/bert-
 if __name__ == '__main__':
     #print(f'{"="*10} Random {"="*10}')
     print(evaluate_random_baseline('./datasets/orkg/ORKG-QA-DS.csv', top_k=1))
+    print(evaluate_random_baseline('./datasets/orkg/ORKG-QA-DS.csv', top_k=3))
+    print(evaluate_random_baseline('./datasets/orkg/ORKG-QA-DS.csv', top_k=5))
+    print(evaluate_random_baseline('./datasets/orkg/ORKG-QA-DS.csv', top_k=10))
     #print(evaluate_random_baseline('./datasets/orkg/ORKG-QA-DS.csv', top_k=2))
     #print(evaluate_random_baseline('./datasets/orkg/ORKG-QA-DS.csv', top_k=3))
     #print(f'{"=" * 10} Lucene {"=" * 10}')
