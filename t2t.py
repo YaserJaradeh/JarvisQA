@@ -47,7 +47,7 @@ class T2T:
                 info.append(f'The paper with the maximum {column} is "{max_title}"'
                             f' and the paper with the minimum {column} is {min_title}')
             if is_string_dtype(column_df):
-                counts = Counter([value.strip() for value in chain(*[value.split(',') for value in column_df.values])])
+                counts = Counter([value.strip() for value in chain(*[value.split(',') for value in column_df.values]) if len(value) > 0])
                 max_occurrence = max(counts.values())
                 if max_occurrence == 1:
                     # ignore one value occurrences
@@ -55,8 +55,8 @@ class T2T:
                 min_occurrence = min(counts.values())
                 most_common = [k for k, v in counts.items() if v == max_occurrence]
                 least_common = [k for k, v in counts.items() if v == min_occurrence]
-                info.append(f'The most common {column} {self.append_value(",".join(most_common))},'
-                            f' and the least common {self.append_value(",".join(least_common))}')
+                info.append(f'The most common {column} {self.append_value(", ".join(most_common))},'
+                            f' and the least common {self.append_value(", ".join(least_common))}')
         return '\n'.join(info)
 
     def row_2_text(self, row: List, header: List, start_index: int = 0) -> str:
@@ -76,4 +76,4 @@ class T2T:
 
 if __name__ == '__main__':
     t2t = T2T()
-    print(t2t.table_2_text("./data/test.csv"))
+    print(t2t.table_2_text("./datasets/orkg/csv/R8342.csv"))
