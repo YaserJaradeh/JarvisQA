@@ -1,0 +1,27 @@
+Pollutant		Type of Pollution (water pollution, soil pollution, air pollution, noise pollution, radioactive pollution, thermal pollution)
+vehicle exhaust; manufacturing exhaust	creates	air pollution
+fires	creates	air pollution
+volcanic eruptions	creates	air pollution
+improper waste disposal	creates	water pollution; soil pollution
+littering	creates	water pollution; soil pollution
+leeching of soil pollution	creates	water pollution
+sewage spills	creates	water pollution; soil pollution
+hazardous waste	creates	water pollution; soil pollution
+pesticides	creates	water pollution; soil pollution
+strip mining	creates	soil pollution
+deforestation	creates	soil pollution
+Traffic	creates	noise pollution
+Airports	creates	noise pollution
+Railroads	creates	noise pollution
+Manufacturing plants	creates	noise pollution
+Construction or demolition	creates	noise pollution
+Concerts	creates	noise pollution
+Nuclear power plant accidents; nuclear power plant leakage	creates	radioactive pollution
+Improper nuclear waste disposal	creates	radioactive pollution
+Uranium mining operations	creates	radioactive pollution
+Power plants	creates	thermal pollution
+Urban sprawl	creates	thermal pollution
+Air pollution particulates	creates	thermal pollution
+Deforestation	creates	thermal pollution
+Loss of temperature moderating water supplies	creates	thermal pollution
+burning fossil fuels	creates	air pollution

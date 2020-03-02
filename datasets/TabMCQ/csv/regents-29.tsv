@@ -1,0 +1,9 @@
+Animal appearance	Environmental appearance	Visibility of animal in environment	Risk to animal from predators
+white rabbit	shady forest	high visibility	not protected from predators
+brown rabbit	shady forest	low visibility	well protected from predators
+white rabbit	snowy field	low visibility	well protected from predators
+brown rabbit	snowy field	high visibility	not protected from predators
+white rabbit	grassy lawn	high visibility	not protected from predators
+brown rabbit	grassy lawn	medium visibility	somewhat protected from predators
+white rabbit	muddy riverbank	high visibility	not protected from predators
+brown rabbit	muddy riverbank	low visibility	well protected from predators

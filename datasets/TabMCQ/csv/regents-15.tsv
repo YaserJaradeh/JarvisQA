@@ -1,0 +1,24 @@
+	TOOL Device for measurement		DIMENSION Parameter the tool measures		OBJECTS Type of object being measured		UNIT Units the tool measures
+A	pan balance; balance	is used to measure the	weight	of	solids	in units of	grams; kilograms; ounces; pounds
+A	stopwatch	is used to measure the	time	of	events	in units of	seconds; minutes
+A	calendar	is used to measure the	time	of	events	in units of	days; months; years
+A	thermometer	is used to measure the	temperature	of	substances	in units of	Celsius; centigrade; Fahrenheit; Kelvin
+A	graduated cylinder	is used to measure the	volume	of	liquids	in units of	milliliters; liters; quarts; gallons
+A	tape measure	is used to measure the	length	of	solids	in units of	centimeters; meters; inches; feet
+A	odometer; odograph	is used to measure the	length	of	paths; routes	in units of	kilometers; miles
+A	odometer; odograph	is used to measure the	distance	of	paths; routes	in units of	kilometers; miles
+A	calipers	is used to measure the	length	of	solids	in units of	centimeters; meters; inches; feet
+A	barometer	is used to measure the	pressure	of	atmosphere	in units of	atmospheres; bars
+A	ruler	is used to measure the	length	of	solids	in units of	centimeters; meters; inches; feet
+A	scale; weighing scale	is used to measure the	weight	of	solids; liquids	in units of	grams; kilograms; ounces; pounds
+A	accelerometer	is used to measure the	acceleration	of	solids	in units of	meters per second squared; g-force
+A	calorimeter	is used to measure the	heat	of	chemical reactions; physical changes	in units of	joules per kelvin
+A	altimeter; altitude meter	is used to measure the	altitude	of	solids	in units of	kilometers; miles
+A	anemometer	is used to measure the	speed	of	wind	in units of	kilometers per hour; miles per hour
+A	measuring cup; measuring jug	is used to measure the	volume	of	solids; liquids	in units of	ounces; milliliters; cups
+A	micrometer; micrometer screw gauge	is used to measure the	length	of	solids	in units of	millimeters
+A	protractor	is used to measure the	angles	of	lines; surfaces	in units of	degrees; radians
+A	sextant	is used to measure the	angle	of	an astronomical object and the horizon	in units of	degrees
+A	speedometer; speed meter	is used to measure the	speed	of	vehicles	in units of	kilometers per hour; miles per hour
+A	tachometer; revolution-counter; tach; rev-counter; RPM gauge	is used to measure the	rotation speed	of	shafts; disks; motors	in units of	rotations per minute
+A	wind vane; weather vane	is used to measure the	direction	of	wind	in units of	compass degrees

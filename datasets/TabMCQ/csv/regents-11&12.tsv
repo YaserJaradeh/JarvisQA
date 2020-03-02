@@ -1,0 +1,77 @@
+	CREATURE Type of organism	PART OR CAPABILITY? has = part can = capability is = attribute	ADAPTATION Distinctive observable trait or behavior of creature		CHALLENGE Distinctive observable challenge presented by the creature's environment		EXPLANATION How the creature's trait or behavior helps it cope with the environmental challenge
+A	bear; deer	has	thick fur	, which helps it to cope with	cold	by	providing a layer of insulation for its body
+A	bear; mouse	has	thicker fur in winter	, which helps it to cope with	seasonal change in temperature	by	adjusting the amount of insulation for the season
+A	dog	can	pant with its tongue hanging out	, which helps it to cope with	hot conditions	by	losing body heat through evaporation of saliva
+A	duck	has	natural oil on its feathers	, which helps it to cope with	its wet habitat	by	repelling water
+A	duck	has	webbed feet	, which helps it to cope with	movement in water	by	making it easy to swim
+A	fox	has	thick fur	, which helps it to cope with	cold conditions	by	insulating it from the cold
+A	fox	has	thicker fur in winter	, which helps it to cope with	cold winters 	by	helping it keep warm
+A	fox	has 	an acute sense of smell	, which helps it to cope with	prey that hide from predators	by	smelling prey that it cannot see
+A	mammal	can	shiver when cold	, which helps it to cope with	cold weather	by	generating heat from muscle movement
+A	mammal	has 	glands that produce sweat	, which helps it to cope with	hot weather	by	losing body heat through evaporation of sweat
+A	peacock	has	bright colors	, which helps it to cope with	the challenge of finding a mate	by	making it look attractive to other peacocks
+A	rabbit	has	long ears	, which helps it to cope with	dangerous predators	by	enabling it to detect distant predators
+A	rabbit	has	long ears	, which helps it to cope with	variation in air temperature	by	expanding or contracting the blood vessels in its ears
+A	ant	can	produce pheremones	, which helps it to cope with	communication between hive members	by	leaving a scented trail that other ants can follow to where food can be found
+A	bacteria	can	produce food	, which helps it to cope with	food scarcity	by	turning light or chemicals into food
+A	bacteria	can	carry out fermentation	, which helps it to cope with	getting energy without oxygen	by	producing ATP without oxygen
+A	bacteria	can	produce enzymes	, which helps it to cope with	antibiotics	by	by deactivating the antibiotic
+A	bat; bird	has	wings	, which helps it to cope with	dangerous predators	by	enabling it to fly
+A	bat	can	use echolocation	, which helps it to cope with	nocturnal prey	by	enabling it to detect prey in the dark
+A	bee	has	a stinger	, which helps it to cope with	dangerous predators to the hive	by	hurting possible predators
+A	bee	has	yellow and black stripes	, which helps it to cope with	dangerous predatory birds	by	sending a warning signal
+A	beetle	has	hard wings	, which helps it to cope with	dangerous predators	by	protecting the body
+A	bird	is	endothermic	, which helps it to cope with	fluctuating temperatures	by	adjusting metabolic rates to regulate body temperature
+A	bird	has	a beak	, which helps it to cope with	food that is difficult to reach	by	capturing and taking in food
+A	butterfly	has	bright colored wings	, which helps it to cope with	the challenge of finding a mate	by	attracting other butterflies of the same species
+A	butterfly	has	bright colored wings	, which helps it to cope with	protecting itself from being eaten by birds	by	making the butterfly look like it is from a bad-tasting or poisonous species
+A	butterfly	has	bright colored wings	, which helps it to cope with	protecting itself from being eaten by birds	by	blending into its surroundings
+A	cactus	has	barrel-shaped stems	, which helps it to cope with	the lack of water in its environment	by	storing water
+A	cactus	has	a large root system	, which helps it to cope with	the lack of water in its environment	by	reaching as much water as possible
+A	camel	has	a hump	, which helps it to cope with	high temperatures	by	concentrating insulating fat into one area of the body
+A	camel	has	a hump	, which helps it to cope with	lack of food	by	storing reserves of fat
+A	cat	has	whiskers	, which helps it to cope with	the challenge of finding prey	by	detecting motion
+A	caterpillar	has	sharp mandibles	, which helps it to cope with	food that is difficult to chew	by	cutting leaves
+A	caterpillar	has	special coloring	, which helps it to cope with	predators	by	blending into its surroundings
+A	chameleon	can	change color	, which helps it to cope with	predators	by	blending into its surroundings
+A	rooster	can	crow	, which helps it to cope with	competition from other roosters	by	signaling its territory
+A	chicken	has	a sharp pointed beak	, which helps it to cope with	food that is difficult to reach	by	picking up fruit, seeds, and insects
+A	corn	has	long roots	, which helps it to cope with	strong winds	by	anchoring it in the soil
+A	cow	has	four stomachs	, which helps it to cope with	eating tough plants	by	repeating the process of chewing and digesting
+A	crab	has	claws	, which helps it to cope with	predators	by	attacking
+A	dolphin	has	flippers	, which helps it to cope with	living in water	by	acting as a paddle to help it swim
+A	elephant	has	a long trunk	, which helps it to cope with	food that is difficult to reach	by	allowing it to reach water or food
+A	elephant	has	good hearing	, which helps it to cope with	dangerous predators	by	allowing it to hear predators
+A	fish	has	fins	, which helps it to cope with	living in water	by	helping it swim
+A	fish; goldfish	has	gills	, which helps it to cope with	living in water	by	extracting oxygen from water
+A	frog	has	webbed feet	, which helps it to cope with	living in water	by	helping it swim
+A	fungi	can	feed on almost any organic matter	, which helps it to cope with	scarcity of food	by	allowing it to eat a wider array of foods
+A	gerbil	has	very little odor	, which helps it to cope with	predators	by	not being detectable by smell
+A	gerbil	has	light brown fur	, which helps it to cope with	predators	by	blending into its desert surroundings
+A	giraffe	has	a long neck	, which helps it to cope with	food that is difficult to reach	by	allowing it to reach tree leaves
+A	grape vine; pumpkin plant	has	tendrils	, which helps it to cope with	shade	by	growing to the tops of other plants, where the leaves can get more light
+A	grass	has	crowns	, which helps it to cope with	being eaten or cut at the stems or root	by	allowing the grass to regenerate so long as the crown remains intact
+A	hawk	has	excellent eyesight	, which helps it to cope with	distant prey	by	helping it see distant prey
+A	horse	has	strong teeth	, which helps it to cope with	food that is difficult to chew	by	breaking down grass
+A	horse	has	a long digestive tract	, which helps it to cope with	food that is difficult to digest	by	digesting cellulose
+A	kiwi bird	has	long legs	, which helps it to cope with	dangerous predators	by	running quickly
+A	kiwi fruit	has 	tiny brown hairs	, which helps it to cope with	damage from bugs	by	protecting the fruit from bugs
+A	ladybug; turtle	has	a hard shell	, which helps it to cope with	dangerous predators	by	protecting the body
+A	ladybug	has	bright spots	, which helps it to cope with	dangerous predators	by	signalling that it is poisonous
+A	lion	has	long claws	, which helps it to cope with	prey	by	holding prey in place
+A	lizard	has	a tail that can break off	, which helps it to cope with	dangerous predators	by	allowing it to escape by leaving its tail behind
+A	lobster	has	claws	, which helps it to cope with	dangerous predators	by	hurting possible predators
+A	mealworm	has	legs and claws	, which helps it to cope with	dangerous predators	by	burrowing into the ground to hide from predators
+A	owl	has	excellent night vision	, which helps it to cope with	prey that are active at night	by	allowing them to see prey in the dark
+A	parrot	has	a strong, curved beak	, which helps it to cope with	nuts and other hard foods	by	allowing them to crack open shells
+A	pelican	has	a large beak	, which helps it to cope with	the challenge of gathering food	by	allowing them to scoop up many fish at once
+A	porcupine	has	sharp spines	, which helps it to cope with	dangerous predators	by	warning that attacking a porcupine will be very painful for the predator
+A	rose	has	thorns	, which helps it to cope with	dangerous predators	by	harming predators that try to eat the rose
+A	skunk	has	a toxic spray	, which helps it to cope with	dangerous predators	by	causing pain and temporarily blinding the predator
+A	snake	has	a forked tongue	, which helps it to cope with	prey that is difficult to find	by	allowing the snake to smell its prey
+A	squirrel	has	an excellent sense of smell	, which helps it to cope with	the challenge of finding food	by	allowing the squirrel to find food by smell
+A	squirrel	can	rotate its back legs	, which helps it to cope with	dangerous predators; the challenge of finding food	by	allowing it to climb down a tree head-first
+A	sunflower	is	tolerant of cold	, which helps it to cope with	seasonal change in temperature	by	allowing it to survive in all seasons
+A	tuna	has	dark blue coloring on its upper side and white coloring on its underside	, which helps it to cope with	dangerous predators	by	allowing it to blend into its ocean habitat
+A	watermelon	has	a thick rind	, which helps it to cope with	high temperatures	by	preventing it from drying out
+A	worm	has	tiny hairs on its body	, which helps it to cope with	the challenge of moving through soil	by	giving the worm traction in the soil

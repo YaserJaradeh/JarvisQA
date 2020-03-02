@@ -1,0 +1,10 @@
+Force		Type of Erosion
+rain	causes	spash erosion; sheet erosion; rill erosion; gully erosion; water erosion
+surface runoff	causes	spash erosion; sheet erosion; rill erosion; gully erosion; water erosion
+running water; river; stream; ocean	causes	valley erosion; stream erosion; water erosion; bank erosion; thermal erosion
+wave	causes	wave pounding; water erosion
+glacier	causes	glacial erosion; abrasion; scouring; plucking; ice thrusting
+flood	causes	water erosion
+weathering	causes	gravity erosion
+wind	causes	wind erosion; deflation; abrasion; surface creep; saltation; suspension
+the sun rapidly heating rocks	causes	exfoliation

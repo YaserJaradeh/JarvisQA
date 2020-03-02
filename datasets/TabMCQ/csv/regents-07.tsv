@@ -1,0 +1,66 @@
+	DEVICE		INPUT ENERGY TYPE		OUTPUT ENERGY TYPE	
+A	car	converts	chemical	energy into	mechanical	energy
+A	fan	converts	electrical	energy into	mechanical	energy
+A	bicycle	converts	kinetic; mechanical; rotational kinetic	energy into	mechanical; kinetic; linear kinetic	energy
+A	computer	converts	electrical	energy into	heat; electrical	energy
+A	hammer	converts	mechanical	energy into	heat; kinetic	energy
+A	jackhammer	converts	pneumatic	energy into	heat; kinetic	energy
+A	backhoe	converts	hydraulic	energy into	heat; kinetic	energy
+A	solar cell	converts	light	energy into	electrical	energy
+A	telephone microphone	converts	sound	energy into	electrical	energy
+A	telephone speaker	converts	electrical	energy into	sound	energy
+A	light bulb	converts	electrical	energy into	light	energy
+A	radio	converts 	radio; electrical	energy into	sound	energy
+A	electric trimmer	converts 	electrical	energy into	kinetic	energy
+A	electric shaver	converts 	electrical	energy into	kinetic	energy
+A	can opener	converts 	kinetic; mechanical; rotational kinetic	energy into	mechanical; kinetic; linear kinetic	energy
+A	plow	converts 	kinetic; mechanical	energy into	kinetic; mechanical	energy
+A	manual typewriter	converts 	kinetic; mechanical	energy into	kinetic; mechanical	energy
+A	aerial work platform	converts 	hydraulic; pneumatic	energy into	kinetic; mechanical	energy
+A	wheel and axle	converts 	kinetic; mechanical; rotational kinetic	energy into	mechanical; kinetic; linear kinetic	energy
+A	waterwheel	converts 	kinetic	energy into	kinetic; mechanical; rotational kinetic	energy
+A	hydroelectric turbine	converts 	kinetic	energy into	electrical	energy
+A	windmill	converts 	wind; kinetic	energy into	kinetic; mechanical; rotational kinetic	energy
+A	wind turbine	converts 	wind; kinetic	energy into	electrical	energy
+A	electric mixer	converts 	electrical	energy into	kinetic; mechanical; rotational kinetic	energy
+A	lawn sprinkler	converts 	kinetic; mechanical	energy into	kinetic; mechanical; rotational kinetic	energy
+A	windshield wiper	converts 	electrical	energy into	kinetic; mechanical; rotational kinetic	energy
+A	sewing machine	converts 	electrical	energy into	kinetic; mechanical	energy
+A	tower crane	converts 	electrical	energy into	kinetic; mechanical	energy
+A	escalator	converts 	electrical	energy into	kinetic; mechanical	energy
+A	elevator	converts 	electrical	energy into	kinetic; mechanical	energy
+A	faucet	converts 	potential	energy into	kinetic	energy
+A	hand drill	converts 	rotational; kinetic	energy into	rotational; kinetic	energy
+A	power drill	converts 	electrical	energy into	rotational; kinetic	energy
+A	airplane	converts 	chemical	energy into	kinetic; mechanical	energy
+A	helicopter	converts 	chemical	energy into	kinetic; mechanical	energy
+A	power brake	converts 	pneumatic	energy into	kinetic; mechanical	energy
+A	hydraulic brake	converts 	hydraulic	energy into	kinetic; mechanical	energy
+A	toilet tank	converts 		energy into		energy
+A	dishwasher	converts 	electric; hydraulic	energy into	kinetic; mechanical; heat	energy
+A	spray nozzle	converts 	hydraulic; potential	energy into	kinetic; mechanical	energy
+A	fire extinguisher	converts 	pneumatic	energy into	kinetic; mechanical	energy
+A	microwave oven	converts 	electric	energy into	heat	energy
+A	combustion engine	converts 	chemical; potential	energy into	kinetic; mechanical; heat	energy
+A	welding torch	converts 	chemical; potential	energy into	heat	energy
+A	electric kettle	converts 	electric	energy into	heat	energy
+A	hair dryer	converts 	electric	energy into	heat; rotational mechanical; kinetic	energy
+A	toaster	converts 	electric	energy into	heat	energy
+A	refrigerator	converts 	electric	energy into	kinetic	energy
+A	air conditioner	converts 	electric	energy into	heat	energy
+A	gasoline engine	converts 	chemical; potential	energy into	kinetic; heat; sound	energy
+A	steam engine	converts 	heat	energy into	kinetic	energy
+A	jet engine	converts 	chemical	energy into	kinetic	energy
+A	nuclear power reactor	converts 	chemical; potential	energy into	heat	energy
+A	saxaphone	converts 	kinetic	energy into	sound	energy
+A	woodwind instrument	converts 	kinetic	energy into	sound	energy
+A	violin	converts 	kinetic	energy into	sound	energy
+A	string instrument	converts 	kinetic	energy into	sound	energy
+A	percussion instrument	converts 	kinetic	energy into	sound	energy
+A	drum	converts 	kinetic	energy into	sound	energy
+A	microphone	converts 	sound; electric	energy into	sound	energy
+A	electric guitar	converts 	kinetic; electric	energy into	sound	energy
+A	loudspeaker	converts 	electric	energy into	kinetic; sound	energy
+A	earphone	converts 	electric	energy into	kinetic; sound	energy
+A	radio transmitter	converts 	sound	energy into	kinetic	energy
+A	radio receiver	converts 	kinetic	energy into	sound	energy

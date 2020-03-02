@@ -1,0 +1,44 @@
+DESCRIPTIVE WEATHER TERM		WEATHER PARAMETER
+windy	is a term that can describe	wind speed
+cloudy	is a term that can describe	sky conditions
+rainy	is a term that can describe	precipitation
+cold	is a term that can describe	air temperature
+cool	is a term that can describe	air temperature
+hot	is a term that can describe	air temperature
+mild	is a term that can describe	air temperature
+warm	is a term that can describe	air temperature
+low pressure	is a term that can describe	air pressure
+high pressure	is a term that can describe	air pressure
+temperate	is a term that can describe	air temperature; climate
+humid	is a term that can describe	the amount of water vapor in the air
+arid	is a term that can describe	the amount of water vapor in the air; the amount of precipitation; climate
+calm	is a term that can describe	wind speed
+gusty	is a term that can describe	wind speed
+blustery	is a term that can describe	wind speed
+cumulus	is a term that can describe	a type of cloud
+nimbus	is a term that can describe	a type of cloud
+sunny	is a term that can describe	the amount of sun
+foggy	is a term that can describe	cloud cover
+breezy	is a term that can describe	wind speed
+brisk	is a term that can describe	wind speed
+snowy	is a term that can describe	precipitation
+hazy	is a term that can describe	cloud cover
+misty	is a term that can describe	cloud cover
+smoggy	is a term that can describe	cloud cover
+cirrus	is a term that can describe	a type of cloud
+cirrostratus	is a term that can describe	a type of cloud
+cirrocumulus	is a term that can describe	a type of cloud
+altostratus	is a term that can describe	a type of cloud
+altocumulus	is a term that can describe	a type of cloud
+stratus	is a term that can describe	a type of cloud
+cumulonimbus	is a term that can describe	a type of cloud
+stratocumulus	is a term that can describe	a type of cloud
+chilly	is a term that can describe	temperature
+drought	is a term that can describe	precipitation
+freezing	is a term that can describe	termperature
+overcast	is a term that can describe	cloud cover
+damp	is a term that can describe	the amount of water vapor in the air
+scorching	is a term that can describe	temperature
+rainbow	is a term that can describe	optical phenomenon
+sun dog; mock sun; phantom sun; parhelion	is a term that can describe	optical phenomenon
+halo	is a term that can describe	optical phenomenon

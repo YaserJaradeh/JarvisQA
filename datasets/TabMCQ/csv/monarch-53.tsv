@@ -1,0 +1,50 @@
+material		magnetic; not magnetic
+aluminum	is	not magnetic
+brass	is	not magnetic
+bronze	is	not magnetic
+chromium	is	not magnetic
+cobalt	is	ferromagnetic
+copper	is	not magnetic
+gold	is	not magnetic
+hematite	is	ferromagnetic
+soft iron	is	ferromagnetic
+lead	is	not magnetic
+nickel	is	ferromagnetic
+pewter	is	not magnetic
+silver	is	not magnetic
+steel, carbon	is	ferromagnetic
+stainless steel	is	magnetic; not magnetic
+tin	is	not magnetic
+zinc	is	not magnetic
+Babingtonite	is	magnetic
+Barite	is	magnetic
+Borax	is	magnetic
+Braunite 	is	magnetic
+Burckhardtite	is	magnetic
+Cadmium 	is	magnetic
+Chromite 	is	magnetic
+Chromferide 	is	magnetic
+Columbite 	is	magnetic
+Coyoteite	is	magnetic
+Epidote	is	magnetic
+Epsomite 	is	magnetic
+Ferberite 	is	magnetic
+Franklinite 	is	magnetic
+Goslarite 	is	magnetic
+Jacobsite 	is	magnetic
+Ludlamite 	is	magnetic
+Maghemite	is	magnetic
+Magnetite	is	magnetic
+Magnetoplumbite	is	magnetic
+Manganbabingtonite 	is	magnetic
+Nitratine 	is	magnetic
+Platinum 	is	magnetic
+Pyrrhotite	is	magnetic
+Siderite	is	magnetic
+Tantalite 	is	magnetic
+Trevorite 	is	magnetic
+plastic	is	not magnetic
+wood	is	not magnetic
+glass	is	not magnetic
+fabric	is	not magnetic
+paper	is	not magnetic
