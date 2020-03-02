@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 import pysolr
+from pysolr import SolrError
 from random import Random
 
 stopwords = ['ourselves', 'hers', 'between', 'yourself', 'but', 'again', 'there', 'about', 'once', 'during', 'out', 'very', 'having', 'with', 'they', 'own', 'an', 'be', 'some', 'for', 'do', 'its', 'yours', 'such', 'into', 'of', 'most', 'itself', 'other', 'off', 'is', 's', 'am', 'or', 'who', 'as', 'from', 'him', 'each', 'the', 'themselves', 'until', 'below', 'are', 'we', 'these', 'your', 'his', 'through', 'don', 'nor', 'me', 'were', 'her', 'more', 'himself', 'this', 'down', 'should', 'our', 'their', 'while', 'above', 'both', 'up', 'to', 'ours', 'had', 'she', 'all', 'no', 'when', 'at', 'any', 'before', 'them', 'same', 'and', 'been', 'have', 'in', 'will', 'on', 'does', 'yourselves', 'then', 'that', 'because', 'what', 'over', 'why', 'so', 'can', 'did', 'not', 'now', 'under', 'he', 'you', 'herself', 'has', 'just', 'where', 'too', 'only', 'myself', 'which', 'those', 'i', 'after', 'few', 'whom', 't', 'being', 'if', 'theirs', 'my', 'against', 'a', 'by', 'doing', 'it', 'how', 'further', 'was', 'here', 'than']
@@ -26,7 +27,8 @@ class LuceneSelector(BaseSelector):
     def __read_csv(path: str) -> pd.DataFrame:
         if not os.path.exists(path):
             raise ValueError("Path doesn't exists")
-        return pd.read_csv(path)
+        sep = '\t' if path[-4:] == '.tsv' else ','
+        return pd.read_csv(path, sep=sep)
 
     @staticmethod
     def __clean_values(value):
@@ -50,7 +52,10 @@ class LuceneSelector(BaseSelector):
     def query_index(self, query, top_k=3):
         clean_query = ' '.join([w for w in query.split() if w.lower() not in stopwords])
         clean_query = clean_query.replace(':', '')
-        return [result['value'][0] for result in list(self.solr.search(f'segment:{clean_query}'))[:top_k]]
+        try:
+            return [result['value'][0] for result in list(self.solr.search(f'segment:{clean_query}'))[:top_k]]
+        except SolrError:
+            return []
 
     def clean_index(self):
         self.solr.delete(q='*:*')
@@ -69,7 +74,8 @@ class RandomSelector:
     def __read_csv(path: str) -> pd.DataFrame:
         if not os.path.exists(path):
             raise ValueError("Path doesn't exists")
-        return pd.read_csv(path)
+        sep = '\t' if path[-4:] == '.tsv' else ','
+        return pd.read_csv(path, sep=sep)
 
     def update_table(self, path: str):
         self.df = self.__read_csv(path)
