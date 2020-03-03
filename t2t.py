@@ -14,7 +14,8 @@ class T2T:
         if not os.path.exists(path):
             raise ValueError("Path doesn't exists")
         with open(path, 'r') as in_file:
-            reader = csv.reader(in_file)
+            sep = '\t' if path[-4:] == '.tsv' else ','
+            reader = csv.reader(in_file, delimiter=sep)
             result = [row for row in reader]
             return result[0], result[1:]
 
@@ -52,6 +53,8 @@ class T2T:
                 if max_occurrence == 1:
                     # ignore one value occurrences
                     continue
+                if 'Unnamed:' in column:
+                    continue
                 min_occurrence = min(counts.values())
                 most_common = [k for k, v in counts.items() if v == max_occurrence]
                 least_common = [k for k, v in counts.items() if v == min_occurrence]
@@ -59,21 +62,24 @@ class T2T:
                             f' and the least common {self.append_value(", ".join(least_common))}')
         return '\n'.join(info)
 
-    def row_2_text(self, row: List, header: List, start_index: int = 0) -> str:
+    def row_2_text(self, row: List, header: List, start_index: int = 0, empty=False) -> str:
         text = f'{row[start_index]}'
         parts = [(header[index], value) for index, value in enumerate(row) if len(value.strip()) != 0][start_index+1:]
         text = f'{text}\'s {self.clean_predicate(parts[0][0])} {self.append_value(parts[0][1])}'
         for part in parts[1:-1]:
+            # if empty or len(self.clean_predicate(part[0])) > 0:
             text = f'{text}, its {self.clean_predicate(part[0])} {self.append_value(part[1])}'
+        # if empty or len(self.clean_predicate(parts[-1][0])) > 0:
         text = f'{text}, and its {self.clean_predicate(parts[-1][0])} {self.append_value(parts[-1][1])}.'
         return text
 
-    def table_2_text(self, csv_path: str) -> str:
+    def table_2_text(self, csv_path: str, empty=False) -> str:
         header, rows = self.read_csv(csv_path)
-        extra_info = self.append_aggregation_info(pd.read_csv(csv_path))
-        return ('\n'.join([self.row_2_text(row, header) for row in rows])) + '\n' + extra_info
+        sep = '\t' if csv_path[-4:] == '.tsv' else ','
+        extra_info = self.append_aggregation_info(pd.read_csv(csv_path, sep=sep))
+        return ('\n'.join([self.row_2_text(row, header, empty) for row in rows])) + '\n' + extra_info
 
 
 if __name__ == '__main__':
     t2t = T2T()
-    print(t2t.table_2_text("./datasets/orkg/csv/R8342.csv"))
+    print(t2t.table_2_text("./datasets/TabMCQ/csv/monarch-65.tsv", empty=True))
