@@ -12,7 +12,7 @@ class T2T:
     @staticmethod
     def read_csv(path: str) -> (List, List):
         if not os.path.exists(path):
-            raise ValueError("Path doesn't exists")
+            raise ValueError(f"Path <{path}> doesnt exists")
         with open(path, 'r') as in_file:
             sep = '\t' if path[-4:] == '.tsv' else ','
             reader = csv.reader(in_file, delimiter=sep)
