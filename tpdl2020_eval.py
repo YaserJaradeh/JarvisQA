@@ -1,4 +1,5 @@
 import evaluate
+import os
 
 
 def exp1(top_k=10, positions=None):
@@ -61,12 +62,10 @@ def exp2(top_k=10, positions=None):
 
 
 def testTabMCQ():
-    import os
-    current = os.path.join(os.getcwd(), './datasets/TabMCQ/TabMCQ-DS.csv')
-    print(current)
-    print(os.path.exists(current))
-    output = evaluate.evaluate_jarvis_efficient('./datasets/TabMCQ/TabMCQ-DS.csv', 10)
-    with open('./data/tab-mcq-test.txt', 'w') as out_file:
+    dataset_path = os.path.join(os.getcwd(), './datasets/TabMCQ/TabMCQ-DS.csv')
+    output_path = os.path.join(os.getcwd(), './data/ab-mcq-test.txt')
+    output = evaluate.evaluate_jarvis_efficient(dataset_path, 10)
+    with open(output_path, 'w') as out_file:
         out_file.write(output)
 
 
