@@ -7,6 +7,6 @@ RUN cd /app/ && \
     cd JarvisQA && \
     pip install -r requirements.txt
 
-WORKDIR /app/JarvisQA
+WORKDIR /app/JarvisQA/
 
 CMD python tpdl2020_eval.py
