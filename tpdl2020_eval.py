@@ -60,5 +60,11 @@ def exp2(top_k=10, positions=None):
         out_file.write(final_result)
 
 
+def testTabMCQ():
+    output = evaluate.evaluate_jarvis_efficient('./datasets/TabMCQ/TabMCQ-DS.csv', 10)
+    with open('./data/tab-mcq-test.txt', 'w') as out_file:
+        out_file.write(output)
+
+
 if __name__ == '__main__':
-    exp1()
+    testTabMCQ()

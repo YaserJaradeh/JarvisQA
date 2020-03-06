@@ -141,6 +141,8 @@ def evaluate_jarvis_efficient(dataset_path, top_k=3, qtype=None, model_name='dee
             if row['Type'] != qtype:
                 continue
         y_true.append(real_answer if pd.notna(real_answer) else '')
+        #if len(times) % 20 == 0:
+        #    qa = JarvisQA(model=model_name, tokenizer=model_name)
         start = time()
         answers = qa.answer_question(os.path.join(os.path.dirname(dataset_path), f'csv/{row["Table"]}.{ext}'), question, top_k)
         end = time()
@@ -192,22 +194,22 @@ if __name__ == '__main__':
     #print(evaluate_random_baseline('./datasets/orkg/ORKG-QA-DS.csv', top_k=5))
     #print(evaluate_random_baseline('./datasets/orkg/ORKG-QA-DS.csv', top_k=10))
     #print(evaluate_random_baseline_efficient('./datasets/orkg/ORKG-QA-DS.csv', top_k=10))
-    print(f'{"=" * 10} Lucene {"=" * 10}')
-    print(evaluate_lucene_baseline_efficient('./datasets/orkg/ORKG-QA-DS.csv', top_k=1))
-    print(evaluate_lucene_baseline_efficient('./datasets/TabMCQ/TabMCQ-DS.csv', top_k=1, ext='tsv'))
+    #print(f'{"=" * 10} Lucene {"=" * 10}')
+    #print(evaluate_lucene_baseline_efficient('./datasets/orkg/ORKG-QA-DS.csv', top_k=1))
+    #print(evaluate_lucene_baseline_efficient('./datasets/TabMCQ/TabMCQ-DS.csv', top_k=1, ext='tsv'))
     #print(evaluate_lucene_baseline('./datasets/orkg/ORKG-QA-DS.csv', top_k=2))
     #print(evaluate_lucene_baseline('./datasets/orkg/ORKG-QA-DS.csv', top_k=3))
     #print(f'{"=" * 10} Jarvis base {"=" * 10}')
     #print(evaluate_jarvis('./datasets/orkg/ORKG-QA-DS.csv', top_k=1))
     #print(evaluate_jarvis('./datasets/orkg/ORKG-QA-DS.csv', top_k=3))
     #print(evaluate_jarvis('./datasets/orkg/ORKG-QA-DS.csv', top_k=5))
-    #print(evaluate_jarvis_efficient('./datasets/orkg/ORKG-QA-DS.csv', top_k=5))
+    print(evaluate_jarvis_efficient('./datasets/TabMCQ/TabMCQ-DS.csv', top_k=10, ext='tsv'))
     # df = pd.read_csv('/media/jaradeh/HDD/questions/MCQs.tsv', sep='\t')
     # output = [['Question', 'Table', 'Type', 'Answer']]
     # for index, row in df.iterrows():
     #     question = row['QUESTION']
     #     if '_______' in question:
-    #         question.replace('_______', '<mask>')
+    #         question = question.replace('_______', '<mask>')
     #     if '&' in row['RELEVANT TABLE']:
     #         continue
     #     choice = row['CORRECT CHOICE']
