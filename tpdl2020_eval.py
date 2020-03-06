@@ -62,8 +62,8 @@ def exp2(top_k=10, positions=None):
 
 
 def testTabMCQ():
-    dataset_path = os.path.join(os.getcwd(), './datasets/TabMCQ/TabMCQ-DS.csv')
-    output_path = os.path.join(os.getcwd(), './data/ab-mcq-test.txt')
+    dataset_path = os.path.join(os.getcwd(), 'datasets/TabMCQ/TabMCQ-DS.csv')
+    output_path = os.path.join(os.getcwd(), 'data/ab-mcq-test.txt')
     output = evaluate.evaluate_jarvis_efficient(dataset_path, 10)
     with open(output_path, 'w') as out_file:
         out_file.write(output)

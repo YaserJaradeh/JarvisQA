@@ -5,7 +5,8 @@ RUN mkdir -p /app/
 RUN cd /app/ && \
     git clone https://github.com/YaserJaradeh/JarvisQA.git && \
     cd JarvisQA && \
-    pip install -r requirements.txt
+    pip install -r requirements.txt && \
+    ls
 
 WORKDIR /app/JarvisQA
 
