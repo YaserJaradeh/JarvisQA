@@ -1,5 +1,4 @@
 import evaluate
-import os
 
 
 def exp1(top_k=10, positions=None):
@@ -61,13 +60,31 @@ def exp2(top_k=10, positions=None):
         out_file.write(final_result)
 
 
-def testTabMCQ():
-    dataset_path = os.path.join(os.getcwd(), 'datasets/TabMCQ/TabMCQ-DS.csv')
-    output_path = os.path.join(os.getcwd(), 'data/ab-mcq-test.txt')
-    output = evaluate.evaluate_jarvis_efficient(dataset_path, 10, ext='tsv')
-    with open(output_path, 'w') as out_file:
-        out_file.write(output)
+def exp4(top_k=10, positions=None):
+    if positions is None:
+        positions = [1, 3, 5, 10]
+    ds_path = 'datasets/TabMCQ/TabMCQ-DS.csv'
+    results = evaluate.evaluate_random_baseline_efficient(ds_path, top_k, ext='tsv')
+    final_result = f'Random:\nPrecision: {results[0][1]:.4f},\tRecall: {results[0][2]:.4f},\tF1-Score: {results[0][2]:.4f}\n'
+    print("Done with Random!!!")
+    final_result = f'{final_result}{"=" * 40}\n'
+    results = evaluate.evaluate_lucene_baseline_efficient(ds_path, top_k, ext='tsv')
+    results = [x for x in results if x[0] in positions]
+    for result in results:
+        final_result = f'{final_result}Lucene:\nk={result[0]}\tPrecision: {result[1]:.4f},\tRecall: {result[2]:.4f},\tF1-Score: {result[3]:.4f}\n'
+        print(f"Done with Lucene@{result[0]}")
+    final_result = f'{final_result}{"=" * 40}\n'
+    results = evaluate.evaluate_jarvis_efficient(ds_path, top_k, ext='tsv')
+    results = [x for x in results if x[0] in positions]
+    for result in results:
+        final_result = f'{final_result}Jarvis:\nk={result[0]}\tPrecision: {result[1]:.4f},\tRecall: {result[2]:.4f},\tF1-Score: {result[3]:.4f}\n'
+        print(f"Done with Jarvis overall@{result[0]}")
+        final_result = f'{final_result}{"=" * 40}\n'
+    with open('benchmark-results-exp4.txt', 'w') as out_file:
+        out_file.write(final_result)
 
 
 if __name__ == '__main__':
-    testTabMCQ()
+    exp1()
+    exp2()
+    exp4()
