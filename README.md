@@ -29,3 +29,26 @@ and then just run the script that you need `python file.py`
 you need to have a Apache Solr instance running to evaluate the Lucene baseline. An easy method to run this using docker is
  
 `docker run -d -p 8983:8983 --name my_solr solr solr-precreate gettingstarted`
+
+### Citation
+Please cite this paper if you used it
+```
+@InProceedings{jaradehJarvisQA,
+   author="Jaradeh, Mohamad Yaser
+   and Stocker, Markus
+   and Auer, S{\"o}ren",
+   editor="Hall, Mark
+   and Mer{\v{c}}un, Tanja
+   and Risse, Thomas
+   and Duchateau, Fabien",
+   title="Question Answering on Scholarly Knowledge Graphs",
+   booktitle="Digital Libraries for Open Knowledge",
+   year="2020",
+   publisher="Springer International Publishing",
+   address="Cham",
+   pages="19--32",
+   isbn="978-3-030-54956-5",
+   doi="10.1007/978-3-030-54956-5_2"
+}
+
+```
