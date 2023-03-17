@@ -5,7 +5,7 @@ import torch
 class QABrain:
 
     def __init__(self, model=None, tokenizer=None):
-        device = 0 if torch.cuda.is_available() else "cpu"
+        device = 0 if torch.cuda.is_available() else -1
         if model is None:
             self.nlp = pipeline('question-answering', device=device)
         if model is not None and tokenizer is None:
