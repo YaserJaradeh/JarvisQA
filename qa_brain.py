@@ -1,15 +1,18 @@
 from transformers import pipeline
+import torch
 
 
 class QABrain:
 
     def __init__(self, model=None, tokenizer=None):
+        device = 0 if torch.cuda.is_available() else "cpu"
         if model is None:
-            self.nlp = pipeline('question-answering')
+            self.nlp = pipeline('question-answering', device=device)
         if model is not None and tokenizer is None:
-            self.nlp = pipeline('question-answering', model=model)
+            self.nlp = pipeline('question-answering', model=model, device=device)
         if model is not None and tokenizer is not None:
-            self.nlp = pipeline('question-answering', model=model, tokenizer=tokenizer)
+            self.nlp = pipeline('question-answering', model=model, tokenizer=tokenizer, device=device)
+
 
     @staticmethod
     def remove_duplicate(dicts, key):
